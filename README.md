@@ -51,6 +51,7 @@ This project was forked from [rbenv](https://github.com/rbenv/rbenv) and
     * [Homebrew on macOS](#homebrew-on-macos)
     * [Advanced Configuration](#advanced-configuration)
     * [Uninstalling Python Versions](#uninstalling-python-versions)
+* **[Using pyenv](#using-pyenv)**
 * **[Command Reference](#command-reference)**
 * **[Development](#development)**
   * [Version History](#version-history)
@@ -345,6 +346,25 @@ Alternatively, simply `rm -rf` the directory of the version you want
 to remove. You can find the directory of a particular Python version
 with the `pyenv prefix` command, e.g. `pyenv prefix 2.6.8`.
 
+
+----
+
+
+----
+
+## Using pyenv
+
+Once you have pyenv installed, the first thing you'll need to do is install a version of Python.  You can start by getting a list of the versions of Python available to install:
+
+```sh
+$ pyenv install --list   # There will be a lot of them
+```
+
+Select the version you want from the list and install:
+
+```sh
+$ pyenv install <version>
+```
 
 ----
 
